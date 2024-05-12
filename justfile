@@ -34,6 +34,10 @@ clean project:
     @echo "Cleaning {{project}}"
     @cd $(just set-proj {{project}}) && cargo clean
 
+add project lib:
+    @echo "Adding {{lib}} to {{project}}"
+    @cd $(just set-proj {{project}}) && cargo add {{lib}}
+
 install-fmt:
     rustup component add rustfmt 2>/dev/null
 

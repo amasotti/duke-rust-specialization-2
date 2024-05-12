@@ -42,3 +42,5 @@ fn main() {
 - [Rust MLOps Template](https://github.com/noahgift/rust-mlops-template)
 - [Polars](https://github.com/pola-rs/polars/)
 - [ONNX Runtime](https://github.com/microsoft/onnxruntime)
+
+- [Actix-Web](https://actix.rs/docs/getting-started) - The crate used for the simple API example

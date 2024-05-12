@@ -1,0 +1,26 @@
+### GET request to check the health of the application
+GET http://localhost:8085/health
+
+###
+
+### POST request to echo a string with 2 chars
+POST http://localhost:8085/echo
+Content-Type: text/plain
+Content-Length: 2
+
+ab
+
+###
+
+### POST request to echo a string with a longer string
+POST http://localhost:8085/echo
+Content-Type: text/plain
+
+arma virumque cano, Troiae qui primus ab oris
+
+###
+
+### GET request to greet the user
+GET http://localhost:8085/hi
+
+###
