@@ -23,3 +23,22 @@ fn main() {
   println!("{:?}", squared);   
 }
 ~~~
+
+
+## Content of Week 1
+
+- Overview of different AI Coding assistants (Bard, AWS Q (previously Whisperer), GitHub Copilot)
+- Rust project structure
+- Github actions
+- Google Colabs & Simple GCP BigQuery SQL examples
+
+
+## Resources
+
+- [Harness AI Capabilities](https://github.com/readme/guides/coding-generative-ai)
+- [Rust in MLOps](https://github.com/readme/guides/rust-mlops)
+
+### Repositories
+- [Rust MLOps Template](https://github.com/noahgift/rust-mlops-template)
+- [Polars](https://github.com/pola-rs/polars/)
+- [ONNX Runtime](https://github.com/microsoft/onnxruntime)

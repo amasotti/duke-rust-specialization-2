@@ -22,22 +22,22 @@ in the different subfolders without having to manually navigate to them.
 
 ```sh
 # In the justfile I've given custom names to the subfolders (see below)
-# basics -> week1/1-basics/proj 
+# simple-api -> week1/0-simple-rust-api/simple-api
 
 # To run them, just type
-just run basics 
+just run simple-api 
 
 # To test them
-just test basics
+just test simple-api
 
 # To build
-just build basics
+just build simple-api
 
 # To lint
-just lint basics 
+just lint simple-api 
 
 # To clean
-just clean basics
+just clean simple-api
 ```
 
 Some aliases are defined (just lazyness):
@@ -53,3 +53,8 @@ Some aliases are defined (just lazyness):
 - [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021)
 
 ### Specific topics
+
+
+### Coursera Discussions
+
+- [Week1 - Disappointment](https://www.coursera.org/learn/data-engineering-rust/discussions/forums/kUkT2yC8Ee6_Lgoc7ulpMw/threads/RROzRfxWEe66og4Z2poFYQ)

@@ -10,7 +10,7 @@ alias c := clean
 set-proj lesson:
     # Use a case-like structure for pattern matching
     @case "{{lesson}}" in \
-        *basics*) echo "./week2/1-basics/proj";; \
+        simple-api) echo "./week1/0-simple-rust-api/simple-api";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
