@@ -11,6 +11,7 @@ set-proj lesson:
     # Use a case-like structure for pattern matching
     @case "{{lesson}}" in \
         simple-api) echo "./week1/0-simple-rust-api/simple-api";; \
+        sequences) echo "./week1/1-rust-sequences/sequences";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 

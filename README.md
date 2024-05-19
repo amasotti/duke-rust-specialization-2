@@ -11,6 +11,9 @@ __Instructor__: [Noah Gift](https://noahgift.com/)
 ### Structure
 
 - [Week1](week1) - Introduction
+    - Quite theoretical presentation of the course and the amazing power of AI as coding assistant
+    - [Minimal Rust service](week1/0-simple-rust-api) (using actix-web for a simple API)
+    - [Sequences in Rust](week1/1-rust-sequences) (vectors, vecDeque, linked lists, etc.)
 
 ## Run
 
