@@ -16,6 +16,7 @@ set-proj lesson:
         sequences) echo "./week1/1-rust-sequences/sequences";; \
         fruit-cli) echo "./week1/2-fruit-salad/fruit-cli";; \
         count-freq) echo "./week1/3-count-freq/count-freq";; \
+        graph-demo) echo "./week1/4-graph-demo/graph-demo";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 

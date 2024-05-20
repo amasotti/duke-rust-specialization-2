@@ -32,6 +32,8 @@ fn main() {
 - Github actions
 - Google Colabs & Simple GCP BigQuery SQL examples
 
+- HashMaps, BTreeMaps, and HashSets
+- Graphs and Trees
 
 ## Resources
 
