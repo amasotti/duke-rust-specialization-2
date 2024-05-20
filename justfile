@@ -15,6 +15,7 @@ set-proj lesson:
         simple-api) echo "./week1/0-simple-rust-api/simple-api";; \
         sequences) echo "./week1/1-rust-sequences/sequences";; \
         fruit-cli) echo "./week1/2-fruit-salad/fruit-cli";; \
+        count-freq) echo "./week1/3-count-freq/count-freq";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
