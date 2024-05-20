@@ -10,6 +10,8 @@ alias c := clean
 set-proj lesson:
     # Use a case-like structure for pattern matching
     @case "{{lesson}}" in \
+        expl) echo "./scratchpad/exploration";; \
+        img-gray) echo "./scratchpad/image-grayscaler";; \
         simple-api) echo "./week1/0-simple-rust-api/simple-api";; \
         sequences) echo "./week1/1-rust-sequences/sequences";; \
         fruit-cli) echo "./week1/2-fruit-salad/fruit-cli";; \
