@@ -1,4 +1,4 @@
-//! # Image Grayscaler (main.rs)
+//! # Image Grayscaler (fruits)
 //!
 //! `image-grayscaler` is a library for converting images to grayscale.
 //!

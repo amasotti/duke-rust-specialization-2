@@ -34,6 +34,7 @@ fn main() {
 
 - HashMaps, BTreeMaps, and HashSets
 - Graphs and Trees
+- Binary Heaps
 
 ## Resources
 
