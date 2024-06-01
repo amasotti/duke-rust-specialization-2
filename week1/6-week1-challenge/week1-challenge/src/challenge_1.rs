@@ -4,7 +4,6 @@ use std::error::Error;
 use std::fmt::Display;
 use std::fs::File;
 
-
 pub fn challenge_1() {
     let data = get_data_from_csv("./data/sample-data.csv").unwrap();
     let stats = calc_statistics(data);
@@ -35,7 +34,7 @@ fn get_data_from_csv(path: &str) -> Result<Vec<f64>, Box<dyn Error>> {
     let mut records = Vec::new();
 
     // Deserialize the CSV records into the vector
-    let mut iter: DeserializeRecordsIter<File, Record> = reader.deserialize();
+    let iter: DeserializeRecordsIter<File, Record> = reader.deserialize();
 
     for record in iter {
         if let Ok(Record { value, .. }) = record {
@@ -62,7 +61,6 @@ struct Statistics {
     std_dev: f64,
 }
 
-
 impl Display for Statistics {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         writeln!(f, "\n| {:<10} | {:<20} |", "Field", "Value")?;
@@ -77,7 +75,6 @@ impl Display for Statistics {
 }
 
 fn calc_statistics(data: Vec<f64>) -> Statistics {
-    let n = data.len() as f64;
     let min = calc_min(&data);
     let max = calc_max(&data);
     let mean = calc_mean(&data);
