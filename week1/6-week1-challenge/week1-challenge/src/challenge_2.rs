@@ -1,8 +1,9 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, LinkedList};
 use std::fs;
 use std::io::Error as IoError;
 
-const MIN_WORD_LENGTH: usize = 5;
+// Very rough blacklist, to be improved
+const MIN_WORD_LENGTH: usize = 3;
 
 pub fn challenge_2() {
     println!("Challenge 2");
@@ -17,6 +18,31 @@ pub fn challenge_2() {
 
     // Print first 10 words
     for (word, freq) in top_10_words {
+        println!("{}: {}", word, freq);
+    }
+}
+
+pub fn challenge_3() {
+    println!("Challenge 3 -- Frequencies with LinkedList");
+    let contents = get_file_content("data/poe_holmes.txt").expect("Could not read file");
+
+    let words = get_words(&contents);
+    let cleaned_words = clean_up(words);
+
+    let words_freq = get_words_freq(cleaned_words);
+    let mut freq_vec : Vec<(String, i32)> = words_freq.into_iter().collect();
+    // Sort by frequency
+    freq_vec.sort_by(|a, b| b.1.cmp(&a.1));
+    freq_vec = freq_vec.into_iter().take(10).collect();
+
+
+    let mut freq_list : LinkedList<(String, i32)> = LinkedList::new();
+    for (word, freq) in freq_vec {
+        freq_list.push_back((word, freq));
+    }
+
+    // Print first 10 words
+    for (word, freq) in freq_list {
         println!("{}: {}", word, freq);
     }
 }
