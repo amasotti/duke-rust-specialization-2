@@ -18,6 +18,7 @@ set-proj lesson:
         count-freq) echo "./week1/3-count-freq/count-freq";; \
         graph-demo) echo "./week1/4-graph-demo/graph-demo";; \
         bin-heap) echo "./week1/5-binary-heap/bin-heap";; \
+        week1-challenge) echo "./week1/6-week1-challenge/week1-challenge";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
