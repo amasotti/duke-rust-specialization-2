@@ -21,6 +21,7 @@ set-proj lesson:
         week1-challenge) echo "./week1/6-week1-challenge/week1-challenge";; \
         advanced-vec) echo "./week2/1-advanced-vecs/mutable-salad";; \
         data-race) echo "./week2/2-data-race/data-race-lab";; \
+        caeser-cipher) echo "./week2/3-caeser-cipher/caeser-cipher";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
