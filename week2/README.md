@@ -14,6 +14,11 @@ __Focus__: Rust Safety and Security Features
 - [[Paper] Ranking programming language by energy efficiency](https://doi.org/10.1016/j.scico.2021.102609)
   - [Similar paper (Energy Efficiency in modern programming languages)](https://umu.diva-portal.org/smash/get/diva2:1772067/FULLTEXT01.pdf)
 
+- [Concurrency and Parallelism](https://doc.rust-lang.org/nomicon/concurrency.html)
+  - [Distributed Computing and Concurrency](https://nogibjj.github.io/rust-tutorial/chapter_5.html)
+- [Data Races and Race Conditions](https://doc.rust-lang.org/nomicon/races.html)
+  - [Send and Sync](https://doc.rust-lang.org/nomicon/send-and-sync.html)
+  - [Atomics](https://doc.rust-lang.org/nomicon/atomics.html)
   
 ### Tools implemented or shown during the course
 
