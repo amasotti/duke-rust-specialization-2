@@ -23,6 +23,8 @@ set-proj lesson:
         data-race) echo "./week2/2-data-race/data-race-lab";; \
         caeser-cipher) echo "./week2/3-caeser-cipher/caeser-cipher";; \
         duplicate-sha3) echo "./week2/4-duplicate-sha3/duplicate-sha3";; \
+        dining-philosophers) echo "./week2/5-dining-philosophers/dining-philosophers";; \
+        wikipedia-crawl) echo "./week2/6-wikipedia-crawl/wikipedia-crawl";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
