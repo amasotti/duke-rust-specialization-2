@@ -11,7 +11,12 @@ __Focus__: Rust Safety and Security Features
 - [Rust Hashes](https://github.com/RustCrypto/hashes)
 - [Rust Software Security - An Assesmment](https://insights.sei.cmu.edu/blog/rust-software-security-a-current-state-assessment/)
 
+- [[Paper] Ranking programming language by energy efficiency](https://doi.org/10.1016/j.scico.2021.102609)
+  - [Similar paper (Energy Efficiency in modern programming languages)](https://umu.diva-portal.org/smash/get/diva2:1772067/FULLTEXT01.pdf)
 
+  
 ### Tools implemented or shown during the course
 
 - [Rdedupe](https://github.com/noahgift/rdedupe)
+- [Rust pytorch gpu](https://github.com/nogibjj/rust-pytorch-gpu-template/tree/main)
+  - [_see also_](https://github.com/nogibjj/rust-pytorch-gpu-template/blob/main/README.md#mnist-convolutional-neural-network)

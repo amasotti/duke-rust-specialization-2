@@ -1,0 +1,9 @@
+[package]
+name = "stress"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = {version = "4.5.1", features = ["derive"]}
+rayon = "1.10.0"
+tch = "0.16.0"
