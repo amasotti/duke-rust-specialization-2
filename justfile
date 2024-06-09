@@ -27,6 +27,7 @@ set-proj lesson:
         wikipedia-crawl) echo "./week2/6-wikipedia-crawl/wikipedia-crawl";; \
         eda-polars) echo "./week3/3-eda-polars/eda-polars";; \
         eda-polars-cli) echo "./week3/4-eda-polars-cli/eda_polars_cli";; \
+        web-service) echo "./week3/5-axum-webservice/axum_web";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
