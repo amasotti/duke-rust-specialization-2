@@ -25,6 +25,7 @@ set-proj lesson:
         duplicate-sha3) echo "./week2/4-duplicate-sha3/duplicate-sha3";; \
         dining-philosophers) echo "./week2/5-dining-philosophers/dining-philosophers";; \
         wikipedia-crawl) echo "./week2/6-wikipedia-crawl/wikipedia-crawl";; \
+        eda-polars) echo "./week3/3-eda-polars/eda-polars";; \
         *) echo "Error: Project '{{lesson}}' not found" >&2; exit 1;; \
     esac
 
